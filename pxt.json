@@ -1,0 +1,31 @@
+{
+    "name": "joystick-servo-62",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "v2": "*",
+        "lcd-16x2": "github:calliope-net/lcd-16x2#v2.0.5",
+        "i2c": "github:calliope-net/i2c#v2.1.1",
+        "joystick": "github:calliope-net/joystick#v2.0.5"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v6.0.27",
+        "tag": "v6.0.27",
+        "commits": "https://github.com/microsoft/pxt-calliope/commits/ed211b0a2354ec8bd5abb15c5373bfbd3ad0c03f",
+        "target": "6.0.27",
+        "pxt": "9.0.12",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
