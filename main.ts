@@ -1,6 +1,6 @@
 function fServo (pJoy: number) {
     if (i2c.between(pJoy, 496, 512)) {
-        qwiicjoystick.comment("Ruhestellung soll 1024 ist 498 auf 1024 = 90° anpassen")
+        qwiicjoystick.comment("Ruhestellung soll 512 ist 498 auf 512 = 90° anpassen")
         return 90
     } else if (pJoy < 32) {
         qwiicjoystick.comment("Werte < 32 wie 0 behandeln (max links)")
